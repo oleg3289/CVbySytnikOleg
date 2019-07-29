@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="js/all.min.js"></script>
+</head>
+<body class="overflow-h">
+
+    <div class="button-up" id="button-up">
+        <a href="#header" class="button-up__link">
+            <i class="fas fa-arrow-up button-up__icon"></i>
+        </a>
+    </div>
+
+    <div class="preload" id="preload">
+        <div class='sk-circle-bounce'>
+            <div class='sk-child sk-circle-1'></div>
+            <div class='sk-child sk-circle-2'></div>
+            <div class='sk-child sk-circle-3'></div>
+            <div class='sk-child sk-circle-4'></div>
+            <div class='sk-child sk-circle-5'></div>
+            <div class='sk-child sk-circle-6'></div>
+            <div class='sk-child sk-circle-7'></div>
+            <div class='sk-child sk-circle-8'></div>
+            <div class='sk-child sk-circle-9'></div>
+            <div class='sk-child sk-circle-10'></div>
+            <div class='sk-child sk-circle-11'></div>
+            <div class='sk-child sk-circle-12'></div>
+        </div>
+    </div>
+    
+    <div class="header-wrap">
+        <header class="header parallax-window-header" id="header" data-parallax="scroll" data-image-src="./img/header_background.png">
+            <div class="header__icons-group hide-icons" id="scene">
+                <div data-depth="0.36" class="header__block">
+                    <img src="./img/header_icon-js.png" alt="js" class="header__icon-img icon-img_js">
+                </div>
+                <div data-depth="0.32" class="header__block">
+                    <img src="./img/header_icon-ng.png" alt="ng" class="header__icon-img icon-img_ng">
+                </div>
+                <div data-depth="0.1" class="header__block">
+                    <img src="./img/header_icon-html.png" alt="html" class="header__icon-img icon-img_html">
+                </div>
+                <div data-depth="0.08" class="header__block">
+                    <img src="./img/header_icon-css.png" alt="css" class="header__icon-img icon-img_css">
+                </div>
+                <div data-depth="0.2" class="header__block">
+                    <img src="./img/header_icon-bt.png" alt="bt" class="header__icon-img icon-img_bt">
+                </div>
+                <div data-depth="0.18" class="header__block">
+                    <img src="./img/header_icon-gulp.png" alt="gulp" class="header__icon-img icon-img_gulp">
+                </div>
+            </div>
+            <div class="container">
+                <nav>
+                    <ul class="header__menu menu" id="menu">
+                        <li class="header__item">
+                            <a class="header__link" href="#about-me">Обо мне</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#profile__skills">Навыки</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#profile__expirience">Опыт</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#profile__education">Образование</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#portfolio">Портфолио</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="header-wrap__photo-container">
+            <img src="./img/me-original.png" alt="my photo" class="header__photo">
+        </div>
+    </div>
+
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <div class="about-me__social-icons">
+                <ul class="about-me__social-group">
+                    <li class="about-me__item" data-wow-delay="2s">
+                        <a target="_blank" href="https://www.linkedin.com/in/oleg-sytnik-6366ab188/" class="about-me__link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="about-me__item" data-wow-delay="2.3s">
+                        <a target="_blank" href="https://github.com/oleg3289" class="about-me__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="about-me__item" data-wow-delay="2.6s">
+                        <a target="_blank" href="https://codepen.io/oleg3289/" class="about-me__link">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </li>
+                    <li class="about-me__item" data-wow-delay="2.9s">
+                        <a target="_blank" href="https://www.instagram.com/olegsitnik2011/" class="about-me__link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="about-me__item" data-wow-delay="3.2s">
+                        <a target="_blank" href="skype:oleg32?chat" class="about-me__link">
+                            <i class="fab fa-skype"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about-me__info-block">
+                <div class="about-me__title">ОБО МНЕ</div>
+                <div class="about-me__text">
+                        Меня зовут Олег и я занимаюсь фронт-энд разработкой. На данный момент нахожусь 
+                        в Киеве и работаю на должности Angular Developer. Я постоянно совершенствую свои 
+                        навыки и ищу новые пути развития. Например, за последних пол года мне удалось 
+                        изучить основы с React.js, Adobe Ilustrator, UI/UX Design а так же улучшить знания
+                        по Git (Git Flow), Webpack. 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile">
+        <div class="container">
+            <div class="profile__skills" id="profile__skills">
+                <div class="profile__title">Навыки</div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">
+                            Свободно владею языком разметки веб-страниц HTML5 
+                            и языком стилей CSS3.
+                    </div>
+                    <ul class="profile__skill-list">
+                        <li>семантическая, кроссбраузерная, адаптивная верстка</li>
+                        <li>работа с псевдоклассами, анимацией, переходами</li>
+                        <li>уверенное использование flex, grid</li>
+                        <li>отзывчивый интерфейс</li>
+                        <li>познания в UI/UX дизайне</li>
+                        <li>pixel perfect</li>
+                    </ul>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">Работаю с HTML-фреймворками Bootstrap 3.0, Bootstrap 4.0+</div>
+                    <ul class="profile__skill-list">
+                        <li>грамотное использование встроенных классов</li>
+                        <li>CSS и компонентов</li>
+                        <li>использование 12-колонной сетки на flexbox и контейнера</li>
+                    </ul>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">Умело пользуюсь фреймворком Angular версии 2 и выше</div>
+                    <ul class="profile__skill-list">
+                        <li>компоненты, модули, сервисы, структурные и 
+                                атрибутивные директивы, pipes и др.</li>
+                        <li>http-запросы с подключением HTTPClient, Observable, 
+                                библиотеки RxJS</li>
+                        <li>Redux и библиотека ngrx, effect</li>
+                        <li>JSON-server</li>
+                        <li>маршрутизация</li>
+                        <li>REST API</li>
+                    </ul>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">Глубокое понимание JavaScript и DOM-структуры</div>
+                    <ul class="profile__skill-list">
+                        <li>манипуляция DOM-элементами</li>
+                        <li>оперирую с массивами, объектами, циклами, с 
+                            условными операторами, математическими функциями</li>
+                        <li>технология запросов на сервер без обновления страницы Ajax</li>
+                        <li>понимание принципов ООП, замыкание</li>
+                        <li>слекжу за всеми обновлениями ECMAScript начиная с версии 2015 года</li>
+                    </ul>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">Достаточный уровень владения библиотекой jQuery</div>
+                    <ul class="profile__skill-list">
+                        <li>работа с елементами страницы и с событиями</li>
+                        <li>локальная подгрузка данных через Ajax</li>
+                        <li>анимация и еффекты</li>
+                        <li>использование актуальных плагинов</li>
+                        <li>cookie</li>  
+                    </ul>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__subtitle">Полное понимание основ UI библиотеки React.js</div>
+                    <ul class="profile__skill-list">
+                        <li>синтаксис JSX</li>
+                        <li>компоненты, state компонентов, их жизненный цикл</li>
+                        <li>props, propTypes</li>
+                        <li>подключение и работа с Redux</li>
+                    </ul>
+                </div>
+                <div class="profile__info-block profile__info-block_1290px">
+                    <div class="profile__single-subtitle">
+                            Опыт в разработке макетов с использованием 
+                            препроцессоров SCSS/SASS и компиляции их кода в CSS.
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Сборка проектов с использованием Gulp и Webpack
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Работа с форматом JSON
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Базовые знания с MongoDB, Firebase, MySQL
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Уверенное использование Git (GitFlow, Github)
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Базовые знания по языку бэкэнда PHP
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Опыт верстки адаптивных кросбраузерных сайтов, 
+                            лендингов, web-приложений
+                    </div>
+                </div>
+                <div class="profile__info-block profile__info-block_1290px">
+                    <div class="profile__single-subtitle">
+                            Опыт верстки по заданных или собственноручно 
+                            сделанных макетах PSD                            
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Наличие сертификата про завершение обучения курса 
+                            “Web-дизайн” в учебном центре “Курсор”
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Уверенное владение графическими редакторами 
+                            Photoshop CC, PaintTool Sai, Adobe Illustrator
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Большой опыт работы с Sublime Text, WebStorm, VS Code
+                    </div>
+                    <div class="profile__single-subtitle">
+                            Владение языками:
+                    </div>
+                    <ul class="profile__skill-list">
+                        <li>English – upper intermidiate</li>
+                        <li>Русский – свободно</li>
+                        <li>Українська – вільно</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="profile__expirience" id="profile__expirience">
+                <div class="profile__title">Опыт</div>
+                <div class="profile__info-block">
+                    <div class="profile__data-list">
+                        <div class="profile__inner">
+                            <span class="profile__company">Название компании: Rozetka.ua</span>
+                            Период работы: 09.12.2018 - текущее время
+                            Должность: Frontend-разработчик (Angular)
+                            Обязанности:
+                        </div>
+                        <ul class="profile__work-list">
+                            <li>
+                                    — построение и настройка персональных 
+                                    кабинетов для юридических лиц - торговых 
+                                    партнеров интерн-магазина
+                            </li>
+                            <li>
+                                    — настройка формы авторизации и http-запросов 
+                                    на сервер
+                            </li>
+                            <li>
+                                    — дальнейшая поддержка клиентской части
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__data-list">
+                        <div class="profile__inner">
+                            <span class="profile__company">Название компании: Учебный центр “Курсор”</span>
+                            Период практики: 29.03.2017 - 23.05.2017<br>
+                            Обязанности: прохождение практики по<br> 
+                            завершению обучения
+                        </div>                        
+                        <ul class="profile__work-list">
+                            <li>
+                                — работа в группе над совместным проектом
+                            </li>
+                            <li>
+                                — создание небольшого shop-сайта с формой 
+                                регистрации, лентой поиска, сортировкой товаров, 
+                                ценовой шкалой.
+                            </li>
+                            <li>
+                                — закрепление навыков
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__education" id="profile__education">
+                <div class="profile__title">Образование</div>
+                <div class="profile__info-block">
+                    <div class="profile__inner">
+                        <span class="profile__school">
+                            Учебное заведение: Учебный центр "Курсор" 
+                            (курс Web-дизайна (HTML5, CSS3))
+                        </span>
+                        <div class="profile__scholl-dicription">
+                            Степень: дополнительная<br>
+                            Название специальности:<br>
+                            HTML-верстальщик/Web-дизайнер<br>
+                            Период обучения: 14.01.2017 - 28.03.2017
+                        </div>
+                    </div>
+                </div>
+                <div class="profile__info-block">
+                    <div class="profile__inner">
+                        <span class="profile__school">
+                            Учебное заведение: 
+                            Киевский институт банковского дела
+                        </span>
+                        <div class="profile__scholl-dicription">
+                            Степень: бакалавр<br>
+                            Название специальности: Финансы и кредит<br>
+                            Период обучения: 01.09.2014 - 27.05.2018
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__title-block">
+            <div class="portfolio__title">ПОРТФОЛИО</div>
+        </div>
+        <div class="portfolio__project-list">
+            <div class="portfolio__project-item project-item-carsshop">
+                <a target="_blank" href="https://carsshop.stackblitz.io" class="portfolio__project-link" id="carsshop">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Веб-приложение позволяет сохранять, введенные через инпуты форм, 
+                            новые объекты машин и выводить их в список ниже. Машины можно покупать, 
+                            нажав кнопку Buy, или удалить кнопкой Delete, тогда элемент подсветится 
+                            красным. В проекте были использованы Angular, Redux, Bootstrap, Webpack.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://stackblitz.com/edit/carsshop">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="carsshop">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-enigma" data-wow-delay="0.3s">
+                <a target="_blank" href="https://oleg3289.github.io/enigma/index.html" class="portfolio__project-link" id="enigma">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Данный лендинг был создан по макету от заказчика. Полностью 
+                            адаптивный, в нем присутствуют формы, самодельные попапы, 
+                            переключатели. Задействованы навыки в HTML, CSS, Bootstrap, 
+                            немного jQuery.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/enigma">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="enigma">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-complex-zp" data-wow-delay="0.3s">
+                <a target="_blank" href="https://oleg3289.github.io/complex_zp/" class="portfolio__project-link" id="complex-zp">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Создан на контейнерах. Используются попапы, 
+                            карусели, icon moon, normalize.css. Задействованы 
+                            знания в HTML, CSS, плагины jQuery.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/complex_zp">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="complex-zp">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-zoon">
+                <a target="_blank" href="https://oleg3289.github.io/zoon/" class="portfolio__project-link" id="zoon">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Страница может быть предназначена для предоставления 
+                            информации по событию, акции, семинару и т.д. Отчет 
+                            времени был подключен к странице при помощи плагина 
+                            countdown.js. Так же присутствует плагин для стилистики 
+                            инпута. В этом проекте мне понадобились HTML, SCSS, 
+                            различные плагины jQuery, Gulp.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/zoon">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="zoon">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-photo-studio">
+                <a target="_blank" href="https://oleg3289.github.io/photo_studio/" class="portfolio__project-link" id="photo-studio">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Подключены плагины бокового меню, wow.js, счетчики, 
+                            попап, animate.css. Также в макете используется grid. 
+                            Для создания мне понадобились CSS, различные jQuery 
+                            плагины, JavaScript, Gulp.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/photo_studio">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="photo-studio">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-goldcoach" data-wow-delay="0.3s">
+                <a target="_blank" href="https://oleg3289.github.io/goldcoach/" class="portfolio__project-link" id="goldcoach">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Проект был создан на заказ. Полностью адаптивен. 
+                            Для создания понадобились HTML, CSS, jQuery.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/goldcoach">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="goldcoach">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-property1" data-wow-delay="0.3s">
+                <a target="_blank" href="https://oleg3289.github.io/property/" class="portfolio__project-link" id="property1">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Макет создал я сам и по нему же и была сделана 
+                            верстка. К странице подключены Bootstrap-карусель, 
+                            animate.css, popup. Мне понадобились HTML, SCSS, 
+                            JavaScript, jQuery, Bootstrap.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/property">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="property1">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-mate">
+                <a target="_blank" href="https://oleg3289.github.io/mate/" class="portfolio__project-link" id="mate">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Страница на HTML, CSS, Bootstrap.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/mate">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="mate">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-mgid">
+                <a target="_blank" href="https://oleg3289.github.io/mgid/" class="portfolio__project-link" id="mgid">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Страница на HTML, CSS, Bootstrap.
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/mgid">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="mgid">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio__project-item project-item-resort" data-wow-delay="0.3s">
+                <a target="_blank" href="https://oleg3289.github.io/resort/" class="portfolio__project-link" id="resort">
+                    <div class="portfolio__project-block">
+                        <div class="portfolio__project-text">
+                            Один из первых макетов. HTML, CSS. Не судите строго)
+                        </div>
+                        <div class="portfolio__button-group">
+                            <div class="portfolio__project-button_smaller">
+                                <object type="owo/uwu">
+                                    <div class="portfolio__button-default">
+                                        <a target="_blank" class="portfolio__button-link" href="https://github.com/oleg3289/resort">КОД</a>
+                                    </div>
+                                </object>
+                            </div>
+                            <div class="portfolio__project-button">
+                                <div class="portfolio__button-default">
+                                    <label class="portfolio__button-link" for="resort">ПЕРЕЙТИ</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__block">
+                    <div class="contacts__title">Контакты</div>
+                    <ul class="contacts__list">
+                        <li>Телефон: +38-097-886-7141</li>
+                        <li>Email: olegsitnik2011@gmail.com</li>
+                        <li>Адреса: г.Киев Оболонский пр-т 34В</li>
+                    </ul>
+                </div>
+                <div class="contacts__extra-info">
+                    <div class="contacts__used-tech">
+                        Данная страница была написана при помощи HTML, 
+                        CSS (SASS), JavaScript, jQuery плагинов,
+                        и собран при помощи Gulp
+                    </div>
+                    <div class="contacts__extra-info-below">
+                        Чтобы посмотреть мой старый сайт-портфолио, 
+                        пожалуйста перейдите по ссылке ниже
+                    </div>
+                </div>
+                <div class="contacts__old-pf">
+                    <div class="contacts__button-default">
+                        <a target="_blank" href="https://oleg3289.github.io/old-portfolio/" class="contacts__button-link">
+                            ПЕРЕЙТИ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
